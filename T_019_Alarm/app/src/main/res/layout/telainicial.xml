@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="Alarmer"/>
+
+    <Button
+        android:id="@+id/btn_alarme_unico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarme Único"/>
+
+    <Button
+        android:id="@+id/btn_alarme_repetitivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarme Repetitivo"/>
+
+    <Button
+        android:id="@+id/btn_alarme_cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar Alarme"/>
+</LinearLayout>

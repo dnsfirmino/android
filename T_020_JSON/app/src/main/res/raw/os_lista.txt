@@ -1,0 +1,40 @@
+{
+    "os_lista": [
+        {
+            "id_os": "1",
+            "valorpedido": "952.3",
+            "ocorrencias": [
+                {
+                    "descricao": "Ferrugem do Componente",
+                    "status": "1"
+                },
+                {
+                    "descricao": "Ferrugem do Chassi",
+                    "status": "2"
+                },
+                {
+                    "descricao": "Ferrugem do Laminado",
+                    "status": "3"
+                }
+            ]
+        },
+        {
+            "id_os": "2",
+            "valorpedido": "1200",
+            "ocorrencias": [
+                {
+                    "descricao": "Falta de Oléo do Componente",
+                    "status": "1"
+                },
+                {
+                    "descricao": "Falta de Oléo do Chassi",
+                    "status": "2"
+                },
+                {
+                    "descricao": "Falta de Oléo Laminado",
+                    "status": "3"
+                }
+            ]
+        }
+    ]
+}

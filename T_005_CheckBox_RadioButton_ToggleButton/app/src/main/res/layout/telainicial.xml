@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox/RadioButton/ToggleButton"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/ckb_android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/ckb_ios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iOS"/>
+
+    <CheckBox
+        android:id="@+id/ckb_windows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Windows"/>
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/rb_masculino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masculino"
+        android:checked="true"/>
+
+    <RadioButton
+        android:id="@+id/rb_feminino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feminino"
+        android:checked="true"/>
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/tb_tomada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Desligado"
+        android:checked="true"
+        android:textOn="Ligado"/>
+</LinearLayout>

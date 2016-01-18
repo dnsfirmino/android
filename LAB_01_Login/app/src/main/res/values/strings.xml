@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LAB Login</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo">Login</string>
+    <string name="nome">Nome</string>
+    <string name="senha">Senha</string>
+</resources>

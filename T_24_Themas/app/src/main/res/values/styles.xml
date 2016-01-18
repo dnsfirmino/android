@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">@style/Base.TextAppearance.AppCompat.Button.Hugo</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppCompat.Button.Hugo" parent="android:style/Widget.Button">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+</resources>

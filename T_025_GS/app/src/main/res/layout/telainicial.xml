@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPS Tracking"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_gps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPS"/>
+
+    <Button
+        android:id="@+id/btn_rede"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REDE"/>
+
+    <Button
+        android:id="@+id/btn_parar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PARAR"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"/>
+
+    <Button
+        android:id="@+id/btn_ver_localizacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verificar Serv/Localização"/>
+
+    <Button
+        android:id="@+id/btn_cellid_lac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CellID/Lac"/>
+</LinearLayout>

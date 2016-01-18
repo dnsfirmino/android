@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:text="Multi Telas"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/telainicial_btn_cs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chamada Simples"/>
+
+    <Button
+        android:id="@+id/telainicial_btn_cr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chamada Resposta"/>
+
+    <Button
+        android:id="@+id/telainicial_btn_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chamada Telefone"/>
+
+    <TextView
+        android:id="@+id/telainicial_tv_resultado"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado: 0"
+        android:textSize="20sp"/>
+</LinearLayout>

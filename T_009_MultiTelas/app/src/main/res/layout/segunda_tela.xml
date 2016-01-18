@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Segunda Tela"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/segundatela_tv_valor_recebido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:text="0"/>
+
+    <Button
+        android:id="@+id/segundatela_btn_devolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Devolver Novo Valor"/>
+</LinearLayout>
